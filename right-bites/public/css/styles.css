@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff5722;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.main-content section {
+    margin-bottom: 2rem;
+}
+
+.main-content h1,
+.main-content h2 {
+    color: #ff5722;
+}

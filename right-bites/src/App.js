@@ -2,6 +2,8 @@ import React from "react";
 import { Routes, Route, Link } from "react-router";
 import Home from "./components/Home";
 import Food from "./components/Food";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 import "./App.css";
 import NavBar from "./components/Navbar";
@@ -12,7 +14,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/food" element={<Food />} />
+        <Route path="/menu" element={<Food />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <footer className="footer mt-2">
         <div class="footer-container">
@@ -28,13 +32,13 @@ function App() {
             <h3>Quick Links</h3>
             <ul>
               <li>
-                <a href="#welcome">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="#recipes">Recipes</a>
+                <a href="/menu">Recipes</a>
               </li>
               <li>
-                <a href="#about-us">About Us</a>
+                <a href="/about">About Us</a>
               </li>
               <li>
                 <a href="#tips">Healthy Tips</a>

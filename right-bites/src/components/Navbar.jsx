@@ -10,13 +10,13 @@ export default function NavBar() {
           <Link to={"/"}>Home</Link>
         </li>
         <li>
-          <Link to={"/food"}>Menu</Link>
+          <Link to={"/menu"}>Menu</Link>
         </li>
         <li>
-          <Link to={"#about"}>About</Link>
+          <Link to={"/about"}>About</Link>
         </li>
         <li>
-          <Link to={"#contact"}>Contact</Link>
+          <Link to={"/contact"}>Contact</Link>
         </li>
       </ul>
     </nav>

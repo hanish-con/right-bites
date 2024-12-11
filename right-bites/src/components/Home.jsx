@@ -17,7 +17,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <main className="">
+      <main className="container">
         <section class="section-welcome">
           <div class="container2">
             <div class="content">
